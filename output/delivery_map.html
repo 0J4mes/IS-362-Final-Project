@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_fa366930d4a02991c95068f59aec938a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_fa366930d4a02991c95068f59aec938a" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_fa366930d4a02991c95068f59aec938a = L.map(
+                "map_fa366930d4a02991c95068f59aec938a",
+                {
+                    center: [39.63909790819344, -100.56473009697986],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 4,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_db39c1c1c10d5380c1ded1a7624b3202 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_db39c1c1c10d5380c1ded1a7624b3202.addTo(map_fa366930d4a02991c95068f59aec938a);
+        
+    
+            var circle_marker_a2612126c03d9203bcdf9de79ef5823b = L.circleMarker(
+                [38.13325622392644, -119.7522378928464],
+                {"bubblingMouseEvents": true, "color": "#3186cc", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.3333333333333335, "stroke": true, "weight": 3}
+            ).addTo(map_fa366930d4a02991c95068f59aec938a);
+        
+    
+        var popup_2ec8156dd7830d7f2721c66d7b2ab5c1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9950e95201a045cc1eff14763581e422 = $(`<div id="html_9950e95201a045cc1eff14763581e422" style="width: 100.0%; height: 100.0%;">Region: Southeast<br>Service: 2nd Day Air<br>Delivery Time: 25.0 hours</div>`)[0];
+                popup_2ec8156dd7830d7f2721c66d7b2ab5c1.setContent(html_9950e95201a045cc1eff14763581e422);
+            
+        
+
+        circle_marker_a2612126c03d9203bcdf9de79ef5823b.bindPopup(popup_2ec8156dd7830d7f2721c66d7b2ab5c1)
+        ;
+
+        
+    
+    
+            var circle_marker_073e754fc1d43f93bd0bd909ecae725c = L.circleMarker(
+                [36.5487735198256, -82.47988639238476],
+                {"bubblingMouseEvents": true, "color": "#3186cc", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.833333333333333, "stroke": true, "weight": 3}
+            ).addTo(map_fa366930d4a02991c95068f59aec938a);
+        
+    
+        var popup_e23f98b79b186229da0e757564e73be8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d2f3f971539c3aa20dd684a38d1546e1 = $(`<div id="html_d2f3f971539c3aa20dd684a38d1546e1" style="width: 100.0%; height: 100.0%;">Region: Southwest<br>Service: Ground<br>Delivery Time: 92.0 hours</div>`)[0];
+                popup_e23f98b79b186229da0e757564e73be8.setContent(html_d2f3f971539c3aa20dd684a38d1546e1);
+            
+        
+
+        circle_marker_073e754fc1d43f93bd0bd909ecae725c.bindPopup(popup_e23f98b79b186229da0e757564e73be8)
+        ;
+
+        
+    
+    
+            var circle_marker_7f40c33f1cbb1dded389cffab8c400fe = L.circleMarker(
+                [38.81205736909627, -104.35682928956359],
+                {"bubblingMouseEvents": true, "color": "#3186cc", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.366666666666667, "stroke": true, "weight": 3}
+            ).addTo(map_fa366930d4a02991c95068f59aec938a);
+        
+    
+        var popup_6554f17bd1c017cc8f774330bd0b1d74 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6b0d988ac4385d8e2d08739dc84bb3ca = $(`<div id="html_6b0d988ac4385d8e2d08739dc84bb3ca" style="width: 100.0%; height: 100.0%;">Region: Midwest<br>Service: Next Day Air<br>Delivery Time: 45.0 hours</div>`)[0];
+                popup_6554f17bd1c017cc8f774330bd0b1d74.setContent(html_6b0d988ac4385d8e2d08739dc84bb3ca);
+            
+        
+
+        circle_marker_7f40c33f1cbb1dded389cffab8c400fe.bindPopup(popup_6554f17bd1c017cc8f774330bd0b1d74)
+        ;
+
+        
+    
+    
+            var circle_marker_7d68e91d6ad059f3f640fca523419294 = L.circleMarker(
+                [43.53545692280517, -109.66896379358016],
+                {"bubblingMouseEvents": true, "color": "#3186cc", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.233333333333334, "stroke": true, "weight": 3}
+            ).addTo(map_fa366930d4a02991c95068f59aec938a);
+        
+    
+        var popup_8c128fb0b3057bf07dbc9989107d0229 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f5a17fe4ee0bc886225fa36540f2ab8b = $(`<div id="html_f5a17fe4ee0bc886225fa36540f2ab8b" style="width: 100.0%; height: 100.0%;">Region: Midwest<br>Service: 3-Day Select<br>Delivery Time: 63.0 hours</div>`)[0];
+                popup_8c128fb0b3057bf07dbc9989107d0229.setContent(html_f5a17fe4ee0bc886225fa36540f2ab8b);
+            
+        
+
+        circle_marker_7d68e91d6ad059f3f640fca523419294.bindPopup(popup_8c128fb0b3057bf07dbc9989107d0229)
+        ;
+
+        
+    
+    
+            var circle_marker_544823ceca46d2d06366790941114cb5 = L.circleMarker(
+                [37.33970271247368, -108.28111624453804],
+                {"bubblingMouseEvents": true, "color": "#3186cc", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.266666666666666, "stroke": true, "weight": 3}
+            ).addTo(map_fa366930d4a02991c95068f59aec938a);
+        
+    
+        var popup_ca2c68a45e15a13c132b1c2c6dcd02b3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7fc65825fec21b620ce6f19d50770a7a = $(`<div id="html_7fc65825fec21b620ce6f19d50770a7a" style="width: 100.0%; height: 100.0%;">Region: Midwest<br>Service: 3-Day Select<br>Delivery Time: 80.0 hours</div>`)[0];
+                popup_ca2c68a45e15a13c132b1c2c6dcd02b3.setContent(html_7fc65825fec21b620ce6f19d50770a7a);
+            
+        
+
+        circle_marker_544823ceca46d2d06366790941114cb5.bindPopup(popup_ca2c68a45e15a13c132b1c2c6dcd02b3)
+        ;
+
+        
+    
+    
+            var circle_marker_0b50896503af210a4cf95640ed348de2 = L.circleMarker(
+                [40.245771333362114, -96.75307300023172],
+                {"bubblingMouseEvents": true, "color": "#3186cc", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.799999999999999, "stroke": true, "weight": 3}
+            ).addTo(map_fa366930d4a02991c95068f59aec938a);
+        
+    
+        var popup_60867a1aaa6961fa0f1c2fc0b279f810 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7ea3ac4291853f536574162500bb4e40 = $(`<div id="html_7ea3ac4291853f536574162500bb4e40" style="width: 100.0%; height: 100.0%;">Region: Southeast<br>Service: 3-Day Select<br>Delivery Time: 46.0 hours</div>`)[0];
+                popup_60867a1aaa6961fa0f1c2fc0b279f810.setContent(html_7ea3ac4291853f536574162500bb4e40);
+            
+        
+
+        circle_marker_0b50896503af210a4cf95640ed348de2.bindPopup(popup_60867a1aaa6961fa0f1c2fc0b279f810)
+        ;
+
+        
+    
+    
+            var circle_marker_42ccb88d712ca0a2cdd281e8fe06719e = L.circleMarker(
+                [40.62452384333723, -86.2796567478144],
+                {"bubblingMouseEvents": true, "color": "#3186cc", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.6000000000000005, "stroke": true, "weight": 3}
+            ).addTo(map_fa366930d4a02991c95068f59aec938a);
+        
+    
+        var popup_6c5e27ac68ac1b1ecbc089dc9f9124eb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b51e93ffc40f336dcfa10acd71371f05 = $(`<div id="html_b51e93ffc40f336dcfa10acd71371f05" style="width: 100.0%; height: 100.0%;">Region: Southwest<br>Service: Next Day Air<br>Delivery Time: 49.0 hours</div>`)[0];
+                popup_6c5e27ac68ac1b1ecbc089dc9f9124eb.setContent(html_b51e93ffc40f336dcfa10acd71371f05);
+            
+        
+
+        circle_marker_42ccb88d712ca0a2cdd281e8fe06719e.bindPopup(popup_6c5e27ac68ac1b1ecbc089dc9f9124eb)
+        ;
+
+        
+    
+    
+            var circle_marker_6c269066a8309f2b64cf3668cddf8579 = L.circleMarker(
+                [36.86510417483547, -98.73070284140493],
+                {"bubblingMouseEvents": true, "color": "#3186cc", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.366666666666666, "stroke": true, "weight": 3}
+            ).addTo(map_fa366930d4a02991c95068f59aec938a);
+        
+    
+        var popup_81b79e3c66eea0fe7ee92e3085b5af1b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_baa5c47d2755bd0d62ebb12921f29a0d = $(`<div id="html_baa5c47d2755bd0d62ebb12921f29a0d" style="width: 100.0%; height: 100.0%;">Region: Midwest<br>Service: Next Day Air<br>Delivery Time: 41.0 hours</div>`)[0];
+                popup_81b79e3c66eea0fe7ee92e3085b5af1b.setContent(html_baa5c47d2755bd0d62ebb12921f29a0d);
+            
+        
+
+        circle_marker_6c269066a8309f2b64cf3668cddf8579.bindPopup(popup_81b79e3c66eea0fe7ee92e3085b5af1b)
+        ;
+
+        
+    
+    
+            var circle_marker_8c8909d882a239dfb8f4a9196be95e74 = L.circleMarker(
+                [37.457334160042144, -108.04414549973855],
+                {"bubblingMouseEvents": true, "color": "#3186cc", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.4666666666666668, "stroke": true, "weight": 3}
+            ).addTo(map_fa366930d4a02991c95068f59aec938a);
+        
+    
+        var popup_b566c0b6a7adaead6458831bf7fed4f3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bc9ff152e09232b9578e94c0db572dee = $(`<div id="html_bc9ff152e09232b9578e94c0db572dee" style="width: 100.0%; height: 100.0%;">Region: West<br>Service: Next Day Air<br>Delivery Time: 85.0 hours</div>`)[0];
+                popup_b566c0b6a7adaead6458831bf7fed4f3.setContent(html_bc9ff152e09232b9578e94c0db572dee);
+            
+        
+
+        circle_marker_8c8909d882a239dfb8f4a9196be95e74.bindPopup(popup_b566c0b6a7adaead6458831bf7fed4f3)
+        ;
+
+        
+    
+    
+            var circle_marker_bc67b19eff4e8cc9a8c0309a63af05ff = L.circleMarker(
+                [41.16861456445998, -116.2186335076022],
+                {"bubblingMouseEvents": true, "color": "#3186cc", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.233333333333333, "stroke": true, "weight": 3}
+            ).addTo(map_fa366930d4a02991c95068f59aec938a);
+        
+    
+        var popup_e35a9628c7d3fc670c101cdfd02e710f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a63a3576ed81b4f0a1e68391f9888fe2 = $(`<div id="html_a63a3576ed81b4f0a1e68391f9888fe2" style="width: 100.0%; height: 100.0%;">Region: Northeast<br>Service: Ground<br>Delivery Time: 69.0 hours</div>`)[0];
+                popup_e35a9628c7d3fc670c101cdfd02e710f.setContent(html_a63a3576ed81b4f0a1e68391f9888fe2);
+            
+        
+
+        circle_marker_bc67b19eff4e8cc9a8c0309a63af05ff.bindPopup(popup_e35a9628c7d3fc670c101cdfd02e710f)
+        ;
+
+        
+    
+    
+            var circle_marker_3f88aa00d040e674656d7134b47ac52b = L.circleMarker(
+                [36.92592520561576, -111.95669473838655],
+                {"bubblingMouseEvents": true, "color": "#3186cc", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.6, "stroke": true, "weight": 3}
+            ).addTo(map_fa366930d4a02991c95068f59aec938a);
+        
+    
+        var popup_3dce2209121e728d95fd745a1104d333 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_01e90a256e3d5921543a0fe70c68432c = $(`<div id="html_01e90a256e3d5921543a0fe70c68432c" style="width: 100.0%; height: 100.0%;">Region: Northeast<br>Service: 3-Day Select<br>Delivery Time: 65.0 hours</div>`)[0];
+                popup_3dce2209121e728d95fd745a1104d333.setContent(html_01e90a256e3d5921543a0fe70c68432c);
+            
+        
+
+        circle_marker_3f88aa00d040e674656d7134b47ac52b.bindPopup(popup_3dce2209121e728d95fd745a1104d333)
+        ;
+
+        
+    
+    
+            var circle_marker_20e6ddeb915ed9858e7ade799a8cf67f = L.circleMarker(
+                [35.50021997882918, -117.9018575903449],
+                {"bubblingMouseEvents": true, "color": "#3186cc", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.233333333333333, "stroke": true, "weight": 3}
+            ).addTo(map_fa366930d4a02991c95068f59aec938a);
+        
+    
+        var popup_8a7d43ddf248ca2b43165fd01f7d9616 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ac231a4a4140e8aceb00d953f98e07a2 = $(`<div id="html_ac231a4a4140e8aceb00d953f98e07a2" style="width: 100.0%; height: 100.0%;">Region: Northeast<br>Service: Next Day Air<br>Delivery Time: 32.0 hours</div>`)[0];
+                popup_8a7d43ddf248ca2b43165fd01f7d9616.setContent(html_ac231a4a4140e8aceb00d953f98e07a2);
+            
+        
+
+        circle_marker_20e6ddeb915ed9858e7ade799a8cf67f.bindPopup(popup_8a7d43ddf248ca2b43165fd01f7d9616)
+        ;
+
+        
+    
+    
+            var circle_marker_e633691fc6134878e6fb6d1fbcdfc492 = L.circleMarker(
+                [40.52816330613755, -106.13217446893852],
+                {"bubblingMouseEvents": true, "color": "#3186cc", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.666666666666666, "stroke": true, "weight": 3}
+            ).addTo(map_fa366930d4a02991c95068f59aec938a);
+        
+    
+        var popup_9135210f6d14bd73888598d5473f78c3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_61588986e63b8f3b3bab23b1462a39c3 = $(`<div id="html_61588986e63b8f3b3bab23b1462a39c3" style="width: 100.0%; height: 100.0%;">Region: West<br>Service: 2nd Day Air<br>Delivery Time: 74.0 hours</div>`)[0];
+                popup_9135210f6d14bd73888598d5473f78c3.setContent(html_61588986e63b8f3b3bab23b1462a39c3);
+            
+        
+
+        circle_marker_e633691fc6134878e6fb6d1fbcdfc492.bindPopup(popup_9135210f6d14bd73888598d5473f78c3)
+        ;
+
+        
+    
+    
+            var circle_marker_adc04a43dfda0ee1f29d9ac01f54715a = L.circleMarker(
+                [42.72253599757652, -79.72360913420596],
+                {"bubblingMouseEvents": true, "color": "#3186cc", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.466666666666667, "stroke": true, "weight": 3}
+            ).addTo(map_fa366930d4a02991c95068f59aec938a);
+        
+    
+        var popup_0d822e954700a8fc08625ac6deb4926a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c3f5be6aa8e3f4c63689fa2706134466 = $(`<div id="html_c3f5be6aa8e3f4c63689fa2706134466" style="width: 100.0%; height: 100.0%;">Region: West<br>Service: Next Day Air<br>Delivery Time: 57.0 hours</div>`)[0];
+                popup_0d822e954700a8fc08625ac6deb4926a.setContent(html_c3f5be6aa8e3f4c63689fa2706134466);
+            
+        
+
+        circle_marker_adc04a43dfda0ee1f29d9ac01f54715a.bindPopup(popup_0d822e954700a8fc08625ac6deb4926a)
+        ;
+
+        
+    
+    
+            var circle_marker_71a5c55324dc4836d8f016d71812dddd = L.circleMarker(
+                [36.52532413112357, -119.67191428711051],
+                {"bubblingMouseEvents": true, "color": "#3186cc", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.39999999999999997, "stroke": true, "weight": 3}
+            ).addTo(map_fa366930d4a02991c95068f59aec938a);
+        
+    
+        var popup_ec4a7276667d3c0a628ce12abd886d61 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_89fa3875be278183031ab94fdd066254 = $(`<div id="html_89fa3875be278183031ab94fdd066254" style="width: 100.0%; height: 100.0%;">Region: Midwest<br>Service: 2nd Day Air<br>Delivery Time: 36.0 hours</div>`)[0];
+                popup_ec4a7276667d3c0a628ce12abd886d61.setContent(html_89fa3875be278183031ab94fdd066254);
+            
+        
+
+        circle_marker_71a5c55324dc4836d8f016d71812dddd.bindPopup(popup_ec4a7276667d3c0a628ce12abd886d61)
+        ;
+
+        
+    
+    
+            var circle_marker_c18ce04875f44fa7ca91871e745fd9da = L.circleMarker(
+                [36.646648455705666, -75.50030059303646],
+                {"bubblingMouseEvents": true, "color": "#3186cc", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.533333333333333, "stroke": true, "weight": 3}
+            ).addTo(map_fa366930d4a02991c95068f59aec938a);
+        
+    
+        var popup_7974ea5089e9a3cc221c2cc20bc9538d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b33336e2fa2ca1445ed04c7e256d1ecb = $(`<div id="html_b33336e2fa2ca1445ed04c7e256d1ecb" style="width: 100.0%; height: 100.0%;">Region: Midwest<br>Service: Next Day Air<br>Delivery Time: 69.0 hours</div>`)[0];
+                popup_7974ea5089e9a3cc221c2cc20bc9538d.setContent(html_b33336e2fa2ca1445ed04c7e256d1ecb);
+            
+        
+
+        circle_marker_c18ce04875f44fa7ca91871e745fd9da.bindPopup(popup_7974ea5089e9a3cc221c2cc20bc9538d)
+        ;
+
+        
+    
+    
+            var circle_marker_82f459efeb3a49880a7e4e9be402627c = L.circleMarker(
+                [38.85644696223137, -90.42476262499204],
+                {"bubblingMouseEvents": true, "color": "#3186cc", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.8333333333333333, "stroke": true, "weight": 3}
+            ).addTo(map_fa366930d4a02991c95068f59aec938a);
+        
+    
+        var popup_622f10af4da7182fd7c52597a3c4e377 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_41717c50479dc4b049deec8e790285f2 = $(`<div id="html_41717c50479dc4b049deec8e790285f2" style="width: 100.0%; height: 100.0%;">Region: Midwest<br>Service: 2nd Day Air<br>Delivery Time: 48.0 hours</div>`)[0];
+                popup_622f10af4da7182fd7c52597a3c4e377.setContent(html_41717c50479dc4b049deec8e790285f2);
+            
+        
+
+        circle_marker_82f459efeb3a49880a7e4e9be402627c.bindPopup(popup_622f10af4da7182fd7c52597a3c4e377)
+        ;
+
+        
+    
+    
+            var circle_marker_14e7c7702333f3dee016ccd2ec47698c = L.circleMarker(
+                [37.69694224951545, -103.05621084276329],
+                {"bubblingMouseEvents": true, "color": "#3186cc", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.3999999999999995, "stroke": true, "weight": 3}
+            ).addTo(map_fa366930d4a02991c95068f59aec938a);
+        
+    
+        var popup_5c099c81504dfc09f4040d7885836923 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d5b818be2fd5f37ad6ba25c6315d706a = $(`<div id="html_d5b818be2fd5f37ad6ba25c6315d706a" style="width: 100.0%; height: 100.0%;">Region: West<br>Service: Next Day Air<br>Delivery Time: 66.0 hours</div>`)[0];
+                popup_5c099c81504dfc09f4040d7885836923.setContent(html_d5b818be2fd5f37ad6ba25c6315d706a);
+            
+        
+
+        circle_marker_14e7c7702333f3dee016ccd2ec47698c.bindPopup(popup_5c099c81504dfc09f4040d7885836923)
+        ;
+
+        
+    
+    
+            var circle_marker_eeb28b18b7c6d93e37af8dc0a66e1e60 = L.circleMarker(
+                [44.49165918583431, -79.10576665967507],
+                {"bubblingMouseEvents": true, "color": "#3186cc", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.933333333333334, "stroke": true, "weight": 3}
+            ).addTo(map_fa366930d4a02991c95068f59aec938a);
+        
+    
+        var popup_49677cd3ff1bd13105ba296b8facdbcd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a5d7f839cd0fa88d11cbcaceac4f3106 = $(`<div id="html_a5d7f839cd0fa88d11cbcaceac4f3106" style="width: 100.0%; height: 100.0%;">Region: Southeast<br>Service: Ground<br>Delivery Time: 85.0 hours</div>`)[0];
+                popup_49677cd3ff1bd13105ba296b8facdbcd.setContent(html_a5d7f839cd0fa88d11cbcaceac4f3106);
+            
+        
+
+        circle_marker_eeb28b18b7c6d93e37af8dc0a66e1e60.bindPopup(popup_49677cd3ff1bd13105ba296b8facdbcd)
+        ;
+
+        
+    
+    
+            var circle_marker_db4d9c93541e113e1643496c80bd7ec6 = L.circleMarker(
+                [44.715552846057044, -71.81139287009665],
+                {"bubblingMouseEvents": true, "color": "#3186cc", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.633333333333333, "stroke": true, "weight": 3}
+            ).addTo(map_fa366930d4a02991c95068f59aec938a);
+        
+    
+        var popup_3bbb09a7fce99971049c576a80841255 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8abf0d265b3c0c9148d0b2a7dfdf6630 = $(`<div id="html_8abf0d265b3c0c9148d0b2a7dfdf6630" style="width: 100.0%; height: 100.0%;">Region: Southeast<br>Service: 3-Day Select<br>Delivery Time: 41.0 hours</div>`)[0];
+                popup_3bbb09a7fce99971049c576a80841255.setContent(html_8abf0d265b3c0c9148d0b2a7dfdf6630);
+            
+        
+
+        circle_marker_db4d9c93541e113e1643496c80bd7ec6.bindPopup(popup_3bbb09a7fce99971049c576a80841255)
+        ;
+
+        
+    
+    
+            var circle_marker_81bc8420b58cc90d93a42ad45f6a7b94 = L.circleMarker(
+                [41.713549783266274, -102.67117517734967],
+                {"bubblingMouseEvents": true, "color": "#3186cc", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.466666666666667, "stroke": true, "weight": 3}
+            ).addTo(map_fa366930d4a02991c95068f59aec938a);
+        
+    
+        var popup_4943e571b1014f5dba8c8c8f76593574 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_25db8c4827fffa0111775432fab0ae39 = $(`<div id="html_25db8c4827fffa0111775432fab0ae39" style="width: 100.0%; height: 100.0%;">Region: Southeast<br>Service: 2nd Day Air<br>Delivery Time: 46.0 hours</div>`)[0];
+                popup_4943e571b1014f5dba8c8c8f76593574.setContent(html_25db8c4827fffa0111775432fab0ae39);
+            
+        
+
+        circle_marker_81bc8420b58cc90d93a42ad45f6a7b94.bindPopup(popup_4943e571b1014f5dba8c8c8f76593574)
+        ;
+
+        
+    
+    
+            var circle_marker_636895bfa03a6d02bd87407fc1cc643b = L.circleMarker(
+                [37.747735686943734, -113.81342749700589],
+                {"bubblingMouseEvents": true, "color": "#3186cc", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.033333333333333, "stroke": true, "weight": 3}
+            ).addTo(map_fa366930d4a02991c95068f59aec938a);
+        
+    
+        var popup_8ee6ddac166d58ae9c4edf501c066cf3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_20c4207fca66f5d856a0187b9930785b = $(`<div id="html_20c4207fca66f5d856a0187b9930785b" style="width: 100.0%; height: 100.0%;">Region: West<br>Service: Ground<br>Delivery Time: 85.0 hours</div>`)[0];
+                popup_8ee6ddac166d58ae9c4edf501c066cf3.setContent(html_20c4207fca66f5d856a0187b9930785b);
+            
+        
+
+        circle_marker_636895bfa03a6d02bd87407fc1cc643b.bindPopup(popup_8ee6ddac166d58ae9c4edf501c066cf3)
+        ;
+
+        
+    
+    
+            var circle_marker_c348eb2bce4b6156d88b1f1253ca0ea4 = L.circleMarker(
+                [39.24353441311919, -118.86344302234625],
+                {"bubblingMouseEvents": true, "color": "#3186cc", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.733333333333333, "stroke": true, "weight": 3}
+            ).addTo(map_fa366930d4a02991c95068f59aec938a);
+        
+    
+        var popup_6278cc40ab4af234e27b0f4143877cba = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1a48c397704d5444d24826b17df9a465 = $(`<div id="html_1a48c397704d5444d24826b17df9a465" style="width: 100.0%; height: 100.0%;">Region: Southeast<br>Service: Next Day Air<br>Delivery Time: 90.0 hours</div>`)[0];
+                popup_6278cc40ab4af234e27b0f4143877cba.setContent(html_1a48c397704d5444d24826b17df9a465);
+            
+        
+
+        circle_marker_c348eb2bce4b6156d88b1f1253ca0ea4.bindPopup(popup_6278cc40ab4af234e27b0f4143877cba)
+        ;
+
+        
+    
+    
+            var circle_marker_8d9b29b27998bb2336c0388d3ddb8095 = L.circleMarker(
+                [44.124273894193195, -113.62824134811363],
+                {"bubblingMouseEvents": true, "color": "#3186cc", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.466666666666666, "stroke": true, "weight": 3}
+            ).addTo(map_fa366930d4a02991c95068f59aec938a);
+        
+    
+        var popup_56f7ef8916f9db282c87dd5ec810c82d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_64e894aec21b21935af8d3345d4c1f64 = $(`<div id="html_64e894aec21b21935af8d3345d4c1f64" style="width: 100.0%; height: 100.0%;">Region: Northeast<br>Service: 2nd Day Air<br>Delivery Time: 87.0 hours</div>`)[0];
+                popup_56f7ef8916f9db282c87dd5ec810c82d.setContent(html_64e894aec21b21935af8d3345d4c1f64);
+            
+        
+
+        circle_marker_8d9b29b27998bb2336c0388d3ddb8095.bindPopup(popup_56f7ef8916f9db282c87dd5ec810c82d)
+        ;
+
+        
+    
+    
+            var circle_marker_c0c6efac890b32cefcecc96906570054 = L.circleMarker(
+                [42.8083407845231, -79.29203636042622],
+                {"bubblingMouseEvents": true, "color": "#3186cc", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.4, "stroke": true, "weight": 3}
+            ).addTo(map_fa366930d4a02991c95068f59aec938a);
+        
+    
+        var popup_1d2bad2c423c46a478ba5cdc3cc6453e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8f7811f8b54e2a3e62570003eff67564 = $(`<div id="html_8f7811f8b54e2a3e62570003eff67564" style="width: 100.0%; height: 100.0%;">Region: Midwest<br>Service: 2nd Day Air<br>Delivery Time: 54.0 hours</div>`)[0];
+                popup_1d2bad2c423c46a478ba5cdc3cc6453e.setContent(html_8f7811f8b54e2a3e62570003eff67564);
+            
+        
+
+        circle_marker_c0c6efac890b32cefcecc96906570054.bindPopup(popup_1d2bad2c423c46a478ba5cdc3cc6453e)
+        ;
+
+        
+    
+</script>
+</html>
